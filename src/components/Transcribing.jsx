@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function Trranscribing(props) {
+export default function Transcribing(props) {
     const {downloading}=props
   return (
     <div className='flex itms-center flex-col
