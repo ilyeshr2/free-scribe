@@ -26,13 +26,15 @@ export default function HomePage(props) {
             console.log(err.message)
             return
         }
-        setRecordingStatus('recording')
+        
 
         //create new Media recorder instance using the stream
         const media = new MediaRecorder(tempStream, { type: mimeType })
         mediaRecorder.current = media
 
         mediaRecorder.current.start()
+        setRecordingStatus('recording')
+        
         let localAudioChunks = []
         mediaRecorder.current.ondataavailable = (event) => {
             if (typeof event.data === 'undefined') { return }
@@ -77,7 +79,7 @@ export default function HomePage(props) {
                      {duration !== 0 && (
                         <p className='text-sm'>{duration}s</p>
                     )} 
-                    <i className={"fa-solid duration-200 fa-microphone " + (recordingStatus === 'recording' ? ' text-rose-300' : "")}></i>
+                    <i className={"fa-solid duration-200 fa-microphone " + (recordingStatus === 'recording' && ' text-rose-300' )}></i>
                 </div>
             </button>
             <p className='text-base'>Or <label className='text-blue-400 cursor-pointer hover:text-blue-600 duration-200'>upload <input onChange={(e) => {
