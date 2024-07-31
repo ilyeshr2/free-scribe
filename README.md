@@ -51,11 +51,11 @@ FreeScribe is a web application designed for recording audio, transcribing it in
    ```bash
    npm run dev
 
-## Usage
--**Open the Application**: Navigate to http://localhost:xxxx in your web browser.
--**Record or Upload Audio**: Use the controls on the HomePage to record audio or upload a file.
--**Transcribe Audio**: After recording or uploading, the audio will be automatically transcribed.
--**Translate Text**: Once transcription is complete, select the target language to translate the text.
+## Usage 
+- **Open the Application**: Navigate to http://localhost:xxxx in your web browser.
+- **Record or Upload Audio**: Use the controls on the HomePage to record audio or upload a file.
+- **Transcribe Audio**: After recording or uploading, the audio will be automatically transcribed.
+- **Translate Text**: Once transcription is complete, select the target language to translate the text.
 
 
 ## Contributing
