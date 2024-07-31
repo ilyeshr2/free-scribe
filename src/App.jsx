@@ -6,18 +6,17 @@ import Information from './components/Information'
 import Transcribing from './components/Transcribing'
 import { MessageTypes } from './utils/presets'
 
-export default function App() {
-
-  const [file, setFile]=useState(null)
-  const [audioStream, setAudioStream]=useState(null)
-  const [output, setOutput]=useState(false)
+function App() {
+  const [file, setFile] = useState(null)
+  const [audioStream, setAudioStream] = useState(null)
+  const [output, setOutput] = useState(null)
   const [downloading, setDownloading] = useState(false)
-  const [loading, setLoading]=useState(false)
+  const [loading, setLoading] = useState(false)
   const [finished, setFinished] = useState(false)
 
   const isAudioAvailable = file || audioStream
 
-  function handleAudioReset(){
+  function handleAudioReset() {
     setFile(null)
     setAudioStream(null)
   }
@@ -79,24 +78,23 @@ export default function App() {
     })
   }
 
-
   return (
-    <div className="flex flex-col max-w-[1000px] mx-auto w-full">
-      <section className="min-h-screen flex flex-col">
-        <Header/>
+    <div className='flex flex-col max-w-[1000px] mx-auto w-full'>
+      <section className='min-h-screen flex flex-col'>
+        <Header />
         {output ? (
-          <Information/>) : loading ? (
-            <Transcribing/>
-          ): isAudioAvailable ? (
-          <FileDisplay handleAudioReset=
-            {handleAudioReset} file={file} audioStream=
-            {audioStream}/> ) : (        
-            <HomePage setFile={setFile} setAudioStream=
-              {setAudioStream}/>)
-        }
+          <Information output={output} finished={finished}/>
+        ) : loading ? (
+          <Transcribing />
+        ) : isAudioAvailable ? (
+          <FileDisplay handleFormSubmission={handleFormSubmission} handleAudioReset={handleAudioReset} file={file} audioStream={audioStream} />
+        ) : (
+          <HomePage setFile={setFile} setAudioStream={setAudioStream} />
+        )}
       </section>
       <footer></footer>
     </div>
-
   )
 }
+
+export default App
