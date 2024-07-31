@@ -42,7 +42,7 @@ FreeScribe is a web application designed for recording audio, transcribing it in
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/yourusername/freescribe.git
+   git clone https://github.com/ilyeshr2/free-scribe
    cd freescribe
 2. **Install dependencies**
    ```bash
