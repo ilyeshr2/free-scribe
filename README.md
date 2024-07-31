@@ -70,8 +70,8 @@ Contributions are welcome! Please follow these steps to contribute:
 
 ## Acknowledgements
 
-**Xenova Transformers**: For providing the pre-trained models used in transcription and translation.
-**React**: For the framework used to build the user interface.
+- **Xenova Transformers**: For providing the pre-trained models used in transcription and translation.
+- **React**: For the framework used to build the user interface.
 
 
 ## Contact
