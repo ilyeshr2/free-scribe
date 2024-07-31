@@ -61,11 +61,11 @@ FreeScribe is a web application designed for recording audio, transcribing it in
 ## Contributing
 Contributions are welcome! Please follow these steps to contribute:
 
--Fork the repository.
--Create a new branch (git checkout -b feature/your-feature).
--Commit your changes (git commit -am 'Add some feature').
--Push to the branch (git push origin feature/your-feature).
--Create a new Pull Request.
+- Fork the repository.
+- Create a new branch (git checkout -b feature/your-feature).
+- Commit your changes (git commit -am 'Add some feature').
+- Push to the branch (git push origin feature/your-feature).
+- Create a new Pull Request.
 
 
 ## Acknowledgements
