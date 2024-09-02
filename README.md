@@ -4,7 +4,8 @@ FreeScribe is a web application designed for recording audio, transcribing it in
 
 
 
-![screen-capture1-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/de910303-beb2-46f7-9a35-a187cf12c09a)
+![screen-capture1-ezgif com-crop](https://github.com/user-attachments/assets/9086cf07-e694-4897-80cd-3ab6fddc1f42)
+
 
 
 
