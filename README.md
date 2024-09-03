@@ -3,12 +3,7 @@
 FreeScribe is a web application designed for recording audio, transcribing it into text, and translating the text into various languages. The application uses Whisper a pre-trained model for automatic speech recognition (ASR) and speech translation. Trained on 680k hours of labelled data to offer these features efficiently.
 
 
-
-![screen-capture1-ezgif com-crop](https://github.com/user-attachments/assets/9086cf07-e694-4897-80cd-3ab6fddc1f42)
-
-
-
-
+![freescribe1](https://github.com/user-attachments/assets/b0ba6308-73a2-4168-8af7-28fc62ae7c6d)
 
 
 ## Features
